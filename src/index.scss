@@ -15,10 +15,12 @@
   --black3: #020c1b;
   --black-lighter: #1c4b91;
   --black-light: #173d77;
-  --pink: #da2f68;
-  --orange: #f89e00;
-  --gradient: linear-gradient(98.37deg, #f89e00 0.99%, #da2f68 100%);
+  --pink: hsl(136, 65%, 51%);
+  --orange: hsl(192, 70%, 51%);
+  --gradient: linear-gradient(98.37deg,hsl(192, 70%, 51%) 0.99%,hsl(136, 65%, 51%) 100%);
 }
+
+
 
 * {
   margin: 0;
