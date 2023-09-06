@@ -28,6 +28,7 @@ const Popular = () => {
                 data={data?.results}
                 loading={loading}
                 endpoint={endpoint}
+                showCircleRating={true}
             />
         </div>
     );

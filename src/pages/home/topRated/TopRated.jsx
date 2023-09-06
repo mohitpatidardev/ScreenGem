@@ -27,6 +27,7 @@ const TopRated = () => {
                 data={data?.results}
                 loading={loading}
                 endpoint={endpoint}
+                showCircleRating={true}
             />
         </div>
     );
